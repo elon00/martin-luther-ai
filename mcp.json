@@ -1,0 +1,10 @@
+{
+  "name": "verse",
+  "ticker": "VERS",
+  "category": "Social_Comms",
+  "tools": [
+    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
+    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
+    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+  ]
+}
