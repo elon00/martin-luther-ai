@@ -1,10 +1,34 @@
 {
-  "name": "verse",
-  "ticker": "VERS",
-  "category": "Social_Comms",
+  "name": "martin-luther-ai-mcp",
+  "version": "1.0.0",
+  "description": "Martin Luther AI Model Context Protocol Server for Civil Rights Defense, Conscience Ethics & Non-Violent Peace",
   "tools": [
-    { "name": "query_conway_state", "description": "Fetches current cellular automaton lattice" },
-    { "name": "execute_x402_settlement", "description": "Executes HTTP 402 micro-settlement" },
-    { "name": "fetch_quicknode_rpc", "description": "Queries QuickNode multi-chain endpoint" }
+    {
+      "name": "audit_civil_rights_impact",
+      "description": "Audit policy actions, algorithmic models, or institutional practices against civil rights, equality, and the Beloved Community",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "policy_context": { "type": "string" },
+          "impacted_minority": { "type": "string" },
+          "non_violence_check": { "type": "boolean" }
+        },
+        "required": ["policy_context", "impacted_minority"]
+      }
+    },
+    {
+      "name": "disburse_civil_rights_grant",
+      "description": "Release direct micro-escrows to grassroots civil rights defenders, anti-discrimination advocates, and non-violent organizers",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "cause_type": { "type": "string" },
+          "activist_address": { "type": "string" },
+          "amount_wei": { "type": "string" },
+          "moral_proof": { "type": "string" }
+        },
+        "required": ["cause_type", "activist_address", "amount_wei"]
+      }
+    }
   ]
 }
